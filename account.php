@@ -115,8 +115,9 @@ if (!isset($_SESSION["basket"])) {
                 if (preg_match('/\s+/', $pwd)) {
                     $errorMessage = "ERROR: Password must not contain spaces";
                 }
-            } else if (strlen($rdyAddress) > 50) {
-                $errorMessage = "ERROR: Address length must be less than 50 characters";
+            } 
+            else if (strlen($rdyAddress) < 10) {
+                $errorMessage = "ERROR: Please Provide Detailed Address ";
             }
             // else if (!preg_match("/^([A-Z])([A-Z0-9]+)\s([0-9])([A-Z])([A-Z])$/i", $postCode) || strlen($postCode) > 8)
             // {

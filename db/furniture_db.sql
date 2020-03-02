@@ -52,7 +52,7 @@ CREATE TABLE `customer` (
   `lastName` varchar(30) DEFAULT NULL,
   `email` varchar(50) NOT NULL,
   `password` varchar(60) DEFAULT NULL,
-  `address` varchar(50) DEFAULT NULL,
+  `address` varchar(200) DEFAULT NULL,
   `postCode` varchar(8) DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 

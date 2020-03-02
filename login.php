@@ -157,12 +157,9 @@ if (!isset($_SESSION["basket"])) {
                 }
             } else if ($pwd != $verifyPwd) {
                 $errorMessage = "ERROR: Passwords doesn't match!";
-            } else if (strlen($rdyAddress) > 50) {
-                // $errorMessage = "ERROR: Address is invalid, it must be in the format: houseNo street city";
-                // if(strlen($rdyAddress) > 50)
-                // {
-                $errorMessage = "ERROR: Address length must be less than 50 characters";
-                // }
+            } 
+            else if (strlen($rdyAddress) < 10) {
+                $errorMessage = "ERROR: Please Provide Detailed Address ";
             }
             // else if (!preg_match("/^([A-Z])([A-Z0-9]+)\s([0-9])([A-Z])([A-Z])$/i", $postCode) || strlen($postCode) > 8)
             // {
@@ -204,6 +201,7 @@ if (!isset($_SESSION["basket"])) {
         ?>
         <!--////////////////////////////// LOGIN BOX DIV ////////////////////////////-->
         <div id="loginBoxDiv">
+        <a href="" style="align:right;" > admin login</a>
             <h3> Login or Create Account </h3>
             <hr class="loginThinLine" />
             <!--///////////////////// DISPLAY HAS ACCOUNT ERROR MESSAGE ///////////////////-->
