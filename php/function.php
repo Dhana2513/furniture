@@ -85,5 +85,4 @@
     		$pagination.= "</ul>\n";		
     	}
         return $pagination;
-    } 
-?>
+    }

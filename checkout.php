@@ -77,9 +77,10 @@ if (!isset($_SESSION["basket"])) {
             <div id="navigationDiv">
                 <ul>
                     <li> <a class="logo" href="index.php"></a> </li>
-                    <li> <a class="button" href="prodList.php?prodType=bed">BEDS</a> </li>
-                    <li> <a class="button" href="prodList.php?prodType=chair">CHAIRS</a> </li>
-                    <li> <a class="button" href="prodList.php?prodType=chest">CHESTS</a> </li>
+                    <li> <a class="button" style="width:110px" href="prodList.php?prodType=bed">BEDS</a> </li>
+                    <li> <a class="button" style="width:110px" href="prodList.php?prodType=chair">CHAIRS</a> </li>
+                    <li> <a class="button" style="width:110px" href="prodList.php?prodType=chest">CHESTS</a> </li>
+                    <li> <a class="button" style="width:120px" href="contactus.php">Contact Us</a> </li>
                     <li class="txtNav"> <input type="text" name="txtSearch" /> </li>
                     <li class="searchNav"> <input type="submit" name="btnSearch" value="" /> </li>
                 </ul>
@@ -131,14 +132,14 @@ if (!isset($_SESSION["basket"])) {
 
                     $shippingCost = 50;
                     define("VATRATE", 0.2);
-                    $vat = VATRATE * $total;
-                    $grandTotal = $total + $shippingCost + $vat;
+                    // $vat = VATRATE * $total;
+                    $grandTotal = $total + $shippingCost;
                     echo "<tr class='trEmptySpace'><td colspan='5'></td></tr> ";
                     echo "<tr>  <td colspan='2'></td>  <td class='tdEnd' colspan='2'>  Subtotal:       </td>  <td class='tdEndData'>&nbsp;&nbsp;&#x20B9;$total         </td>  </tr>";
 
                     echo "<tr>  <td colspan='2'></td>  <td class='tdEnd' colspan='2'>  Shipping Cost:  </td>  <td class='tdEndData'>&nbsp;&nbsp;&#x20B9;$shippingCost  </td>  </tr>";
 
-                    echo "<tr>  <td colspan='2'></td>  <td class='tdEnd' colspan='2'>  VAT:            </td>  <td class='tdEndData'>&nbsp;&nbsp;&#x20B9;$vat           </td>  </tr>";
+                    // echo "<tr>  <td colspan='2'></td>  <td class='tdEnd' colspan='2'>  VAT:            </td>  <td class='tdEndData'>&nbsp;&nbsp;&#x20B9;$vat           </td>  </tr>";
 
                     echo "<tr>  <td colspan='2'></td>  <td class='tdGrandTotal' colspan='2'>  Grand Total:    </td>  <td class='tdGrandTotalData'>&nbsp;&nbsp;&#x20B9;$grandTotal    </td>  </tr>";
                 ?>

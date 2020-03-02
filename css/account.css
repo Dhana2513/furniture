@@ -24,7 +24,7 @@
     background-color: grey;
 }
 
-#accountDiv { 
+#accountDiv {
     width: 400px;
     height: 600px;
     float: left;
@@ -37,7 +37,10 @@
     font-size: 12px;
     font-weight: bold;
 }
+
+
 /*///// FORM STYLE /////*/
+
 #frmAccount {
     position: relative;
     width: 400px;
@@ -77,10 +80,12 @@
     margin-left: 20px;
 }
 
-#frmAccount input[type='submit']:hover 
-{   background-color: #e14d0f; 
+#frmAccount input[type='submit']:hover {
+    background-color: #e14d0f;
     color: white;
 }
+
+
 /*///// END OF FORM STYLE /////*/
 
 #accountImage {
@@ -98,7 +103,8 @@
     width: 300px;
     height: 50px;
     margin-left: 20px;
-    border: solid 1px #e14d0f;;
+    border: solid 1px #e14d0f;
+    ;
     color: #e14d0f;
     font-family: verdana, arial;
     font-size: 12px;

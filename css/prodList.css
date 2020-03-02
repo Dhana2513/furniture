@@ -1,6 +1,4 @@
-
-#prodListDiv 
-{ 
+#prodListDiv {
     width: 800px;
     height: 948px;
     margin-top: 10px;
@@ -29,18 +27,21 @@
     float: left;
 }
 
-.prodImages
-{
+.prodImages {
     width: 300px;
     height: 439px;
     float: left;
 }
 
-.prodImages img { border: 0; }
-.prodImages a:focus { outline: none; }
+.prodImages img {
+    border: 0;
+}
 
-#productTable
-{
+.prodImages a:focus {
+    outline: none;
+}
+
+#productTable {
     width: 500px;
     height: 878px;
     float: right;
@@ -49,8 +50,7 @@
     background-color: white;
 }
 
-#productTable td
-{
+#productTable td {
     width: 162px;
     height: 215.125px;
     padding: 0;
@@ -60,8 +60,7 @@
     background-color: white;
 }
 
-#productTable a
-{
+#productTable a {
     display: block;
     width: 158px;
     height: 211.125px;
@@ -71,23 +70,26 @@
     border-color: lightgrey;
 }
 
-#productTable a:hover
-{
+#productTable a:hover {
     color: #e14d0f;
     border-color: #e14d0f;
 }
 
-#productTable img { margin-top: 2px; border: 0; }
+#productTable img {
+    margin-top: 2px;
+    border: 0;
+}
 
-#productTable p
-{
+#productTable p {
     padding: 0;
     margin: 0;
     font-family: verdana;
     font-size: 14px;
 }
 
-#productTable .price { font-size: 10px; }
+#productTable .price {
+    font-size: 10px;
+}
 
 #paginationBoxDiv {
     float: right;
@@ -96,9 +98,7 @@
     background-color: lightgrey;
 }
 
-#paginationDiv
-{
-    
+#paginationDiv {
     width: 500px;
     height: 30px;
     margin-top: 5px;

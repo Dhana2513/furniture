@@ -1,25 +1,23 @@
-body 
-{
+body {
     background-color: #f2f2f2;
     margin: 0;
 }
 
-#containerDiv
-{
+#containerDiv {
     position: absolute;
     left: 50%;
     margin-left: -500px;
     width: 1000px;
 }
 
-#headerDiv
-{
+#headerDiv {
     position: relative;
     width: 800px;
     height: 35px;
     margin-left: auto;
     margin-right: auto;
 }
+
 
 /*///// IF CUSTOMER NAME EXIST /////*/
 
@@ -31,9 +29,10 @@ body
     font-size: 12px;
 }
 
+
 /*///// END IF CUSTOMER NAME EXIST /////*/
-#headerDiv p
-{
+
+#headerDiv p {
     position: absolute;
     right: 5px;
     bottom: 2px;
@@ -42,21 +41,18 @@ body
     font-size: 12px;
 }
 
-#headerDiv a
-{
+#headerDiv a {
     text-decoration: none;
     color: black;
     font-weight: bold;
 }
 
-#headerDiv a:hover
-{
+#headerDiv a:hover {
     color: #e14d0f;
     text-decoration: underline;
 }
 
-#navigationDiv
-{
+#navigationDiv {
     width: 800px;
     height: 51px;
     margin-top: 5px;
@@ -64,36 +60,31 @@ body
     margin-right: auto;
 }
 
-#navigationDiv ul
-{
+#navigationDiv ul {
     margin: 0;
     padding: 0;
     list-style: none;
 }
 
-#navigationDiv li
-{
+#navigationDiv li {
     float: left;
 }
 
-#navigationDiv li .logo
-{
+#navigationDiv li .logo {
     display: block;
-    width: 150px;
+    width: 180px;
     height: 51px;
     background: url(images/logoW150xH102.jpg) bottom;
     background-repeat: no-repeat;
 }
 
-#navigationDiv li .logo:hover
-{
+#navigationDiv li .logo:hover {
     background-position: top;
 }
 
-#navigationDiv li .button
-{
+#navigationDiv li .button {
     display: block;
-    width: 150px;
+    width: 180px;
     height: 51px;
     line-height: 51px;
     background: url(images/buttonBGW300xH102.jpg) bottom;
@@ -106,14 +97,12 @@ body
     font-size: smaller;
 }
 
-#navigationDiv li a:hover
-{
+#navigationDiv li a:hover {
     background-position: top;
     color: white;
-} 
+}
 
-.txtNav
-{
+.txtNav {
     width: 150px;
     height: 51px;
     background-image: url(images/txtBackgroundW150xH51.jpg);
@@ -122,23 +111,20 @@ body
     line-height: 51px;
 }
 
-#navigationDiv input[type="text"]
-{
+#navigationDiv input[type="text"] {
     width: 140px;
     padding: 0;
     margin: 0;
 }
 
-.searchNav
-{
+.searchNav {
     width: 50px;
     height: 51px;
     background: black;
     text-align: center;
 }
 
-#navigationDiv input[type="submit"]
-{
+#navigationDiv input[type="submit"] {
     width: 27px;
     height: 27px;
     border: 0;
@@ -148,13 +134,11 @@ body
     margin-top: 12px;
 }
 
-#navigationDiv input[type="submit"]:hover
-{
+#navigationDiv input[type="submit"]:hover {
     background-position: top;
 }
 
-#indexBoxDiv1
-{
+#indexBoxDiv1 {
     width: 800px;
     height: 366px;
     margin-top: 10px;
@@ -162,18 +146,21 @@ body
     margin-right: auto;
 }
 
-#imgSlides
-{
+#imgSlides {
     width: 650px;
     height: 366px;
     float: left;
 }
 
-#imgSlides .imgFirst { display: block; }
-#imgSlides .imgOthers { display: none; }
+#imgSlides .imgFirst {
+    display: block;
+}
 
-#ulThumbs 
-{
+#imgSlides .imgOthers {
+    display: none;
+}
+
+#ulThumbs {
     padding: 0;
     margin: 0;
     width: 140px;
@@ -182,8 +169,7 @@ body
     list-style: none;
 }
 
-#ulThumbs li a
-{
+#ulThumbs li a {
     display: block;
     width: 140px;
     height: 70.8px;
@@ -192,34 +178,28 @@ body
     text-decoration: none;
 }
 
-.middleThumb
-{
+.middleThumb {
     margin: 3px 0;
 }
 
-#ulThumbs img
-{
+#ulThumbs img {
     margin-top: 2.9px;
     border: 0;
 }
 
-#ulThumbs li.activeSlide a 
-{ 
+#ulThumbs li.activeSlide a {
     background-color: #e14d0f;
 }
 
-#ulThumbs a:focus 
-{ 
-    outline: none; 
+#ulThumbs a:focus {
+    outline: none;
 }
 
-#ulThumbs a:hover 
-{ 
-    background-color: #e14d0f; 
+#ulThumbs a:hover {
+    background-color: #e14d0f;
 }
 
-#indexBoxDiv2
-{
+#indexBoxDiv2 {
     width: 800px;
     height: 200px;
     margin-top: 10px;
@@ -227,23 +207,21 @@ body
     margin-right: auto;
 }
 
-#content1
-{
+#content1 {
     width: 300px;
     height: 200px;
     float: left;
     background: url(images/mapW300xH200.jpg);
 }
 
-#content2
-{
+#content2 {
     width: 500px;
     height: 200px;
     float: left;
     background-color: #e14d0f;
 }
 
-#prodNav{
+#prodNav {
     width: 350px;
     height: 30px;
     padding: 0;
@@ -273,16 +251,20 @@ body
     background-repeat: no-repeat;
 }
 
-#prodNav li #right:hover { background-position: top; }
-#prodNav li #left:hover { background-position:  top; }
+#prodNav li #right:hover {
+    background-position: top;
+}
 
-#content2 h6
-{
+#prodNav li #left:hover {
+    background-position: top;
+}
+
+#content2 h6 {
     padding: 0;
     margin: 8px 0 0 0;
     font-family: Verdana, arial, sans-serif;
     text-align: center;
-    color:white;
+    color: white;
 }
 
 #featuredSlides {
@@ -305,12 +287,10 @@ body
 }
 
 #featuredSlides a:hover {
-    
     border-color: black;
 }
 
-#indexBoxDiv3
-{
+#indexBoxDiv3 {
     width: 800px;
     height: 170px;
     margin-top: 10px;
@@ -318,21 +298,19 @@ body
     margin-right: auto;
     background-color: black;
 }
-#indexBoxDiv3 h4
-{
+
+#indexBoxDiv3 h4 {
     padding: 30px 10px 5px;
     margin: 0;
     color: #e14d0f;
     font-family: Verdana;
 }
 
-#indexBoxDiv3 .orange
-{
+#indexBoxDiv3 .orange {
     font-family: Broadway;
 }
 
-#indexBoxDiv3 p 
-{
+#indexBoxDiv3 p {
     padding: 0px 10px 5px;
     margin: 0px;
     font-size: 10px;
@@ -340,8 +318,7 @@ body
     color: white;
 }
 
-#footerDiv
-{
+#footerDiv {
     position: relative;
     width: 800px;
     height: 15px;
@@ -350,24 +327,21 @@ body
     margin-right: auto;
 }
 
-#footerDiv p
-{
+#footerDiv p {
     position: absolute;
     bottom: 2px;
     left: 5px;
     margin: 0;
     font-size: 10px;
-    font-family: Verdana; 
+    font-family: Verdana;
 }
 
-#footerDiv a
-{
+#footerDiv a {
     text-decoration: none;
     color: black;
 }
 
-#footerDiv a:hover
-{
+#footerDiv a:hover {
     color: #e14d0f;
     text-decoration: underline;
 }
@@ -382,13 +356,11 @@ body
     border: solid 1px;
 }
 
-#cart img, #indexBoxDiv2 img{
+#cart img,
+#indexBoxDiv2 img {
     border: none;
 }
 
 #indexBoxDiv2 img:focus {
     border: none;
 }
-
-
-

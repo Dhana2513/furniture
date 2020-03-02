@@ -108,9 +108,10 @@ if (!isset($_SESSION["basket"])) {
             <div id="navigationDiv">
                 <ul>
                     <li> <a class="logo" href="index.php"></a> </li>
-                    <li> <a class="button" href="prodList.php?prodType=bed">BEDS</a> </li>
-                    <li> <a class="button" href="prodList.php?prodType=chair">CHAIRS</a> </li>
-                    <li> <a class="button" href="prodList.php?prodType=chest">CHESTS</a> </li>
+                    <li> <a class="button" style="width:110px" href="prodList.php?prodType=bed">BEDS</a> </li>
+                    <li> <a class="button" style="width:110px" href="prodList.php?prodType=chair">CHAIRS</a> </li>
+                    <li> <a class="button" style="width:110px" href="prodList.php?prodType=chest">CHESTS</a> </li>
+                    <li> <a class="button" style="width:120px" href="contactus.php">Contact Us</a> </li>
                     <li class="txtNav"> <input type="text" name="txtSearch" /> </li>
                     <li class="searchNav"> <input type="submit" name="btnSearch" value="" /> </li>
                 </ul>
@@ -190,7 +191,7 @@ if (!isset($_SESSION["basket"])) {
                 ///////////// FORMS ARE DISPLAYED HERE///////////////
                 echo "<form id='frmAddToBasket' method='post'> 
                               <p>
-                                  GBP &#x20B9;$price
+                                  Price : &#x20B9; $price
                                   <input type='text' name='txtQty' value='1'/> 
                                   <input type='submit' name='btnAddToBasket' value='Add to Basket' onclick='return checkQty();'/> 
                               </p>

@@ -83,6 +83,3 @@ function isCardNo($aString)
   }
   return ($checksum % 10) == 0;
 }
-
-?>
-

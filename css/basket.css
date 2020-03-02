@@ -1,4 +1,3 @@
-
 #basketDiv {
     position: relative;
     width: 800px;
@@ -10,15 +9,20 @@
     padding-bottom: 200px;
 }
 
-#basketDiv h3, h5 {
+#basketDiv h3,
+h5 {
     font-family: verdana, arial, sans-serif;
     margin-left: 50px;
     color: rgb(228, 121, 17);
 }
 
-#basketDiv h5 { color: black;}
+#basketDiv h5 {
+    color: black;
+}
+
 
 /*/////// ACTUAL TABLE STYLE ///////*/
+
 #basketTable {
     position: relative;
     border-collapse: collapse;
@@ -38,19 +42,31 @@
     font-size: 13px;
 }
 
-#basketTable th, td {
+#basketTable th,
+td {
     padding: 0;
     margin: 0;
 }
 
-#basketTable td { font-size: 12px;} 
+#basketTable td {
+    font-size: 12px;
+}
 
-#basketTable img { border: 0; display: block;}
+#basketTable img {
+    border: 0;
+    display: block;
+}
+
 
 /*/////// TABLE DATA STYLE ///////*/
-#thProdName, #thLineTotal{ text-align: left; }
 
-.tdFirstThinLine {  /* FIRST THIN LINE AFTER TH*/
+#thProdName,
+#thLineTotal {
+    text-align: left;
+}
+
+.tdFirstThinLine {
+    /* FIRST THIN LINE AFTER TH*/
     height: 3px;
     background-color: white;
 }
@@ -95,7 +111,10 @@
     color: white;
 }
 
-.tdQty input[type='submit']:hover {background-color: #e14d0f; color: black;}
+.tdQty input[type='submit']:hover {
+    background-color: #e14d0f;
+    color: black;
+}
 
 .tdLineTotal {
     width: 100px;
@@ -104,16 +123,19 @@
     background-color: white;
 }
 
-.tdThinLine {      /* THIN LINE AFTER PRODUCT TD*/
+.tdThinLine {
+    /* THIN LINE AFTER PRODUCT TD*/
     height: 1px;
     background-color: #e14d0f;
 }
 
-.trEmptySpace {     /* EMPTY SPACE BEFORE SUBTOTAL*/
+.trEmptySpace {
+    /* EMPTY SPACE BEFORE SUBTOTAL*/
     height: 30px;
 }
 
-.tdEnd {    /* TITLE SUBTOTAL SHIPPING COST VAT GRANT TOTAL*/
+.tdEnd {
+    /* TITLE SUBTOTAL SHIPPING COST VAT GRANT TOTAL*/
     text-align: right;
     background-color: lightgrey;
 }
@@ -136,6 +158,8 @@
     background-color: grey;
     color: white;
 }
+
+
 /*/////// END OF TABLE DATA STYLE ///////*/
 
 #checkOutDiv {
@@ -149,9 +173,10 @@
 #aContinueShop {
     display: block;
     width: 150px;
-    height: 30px; 
+    height: 30px;
     float: left;
-    background-color: black;;
+    background-color: black;
+    ;
     text-decoration: none;
     text-align: center;
     line-height: 30px;
@@ -163,7 +188,7 @@
 #aCheckout {
     display: block;
     width: 150px;
-    height: 30px; 
+    height: 30px;
     float: right;
     background-color: black;
     text-decoration: none;
@@ -174,7 +199,8 @@
     color: white;
 }
 
-#aContinueShop:hover, #aCheckout:hover {
+#aContinueShop:hover,
+#aCheckout:hover {
     background-color: #e14d0f;
     color: black;
 }
@@ -192,7 +218,8 @@
     width: 700px;
     height: 40px;
     margin: 0 auto 0;
-    border: solid 1px #e14d0f;;
+    border: solid 1px #e14d0f;
+    ;
 }
 
 #basketErrorDiv h6 {
