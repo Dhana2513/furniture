@@ -171,10 +171,10 @@ if (isset($_COOKIE["basket"])) {
         <div id="indexBoxDiv3">
             <h4> <span class="orange"> DAVA&reg;</span> House Furniture and Decoration</h4>
             <p>
-                We are one of the most successful retailers of luxury house furniture in the UK. Our shop has established in 1989 and now
+                We are one of the most successful retailers of luxury house furniture in the Pune. Our shop has established in 1989 and now
                 is a leading retailer of house and office furniture and decoration. Our online shop has large selection of beds, chairs,
                 and, storage cabinets. For those, who want to create most relaxing atmosphere and peace of mind in their homes, DAVA house furniture shop
-                is the perfect place to start. We have over 80 branches all over the world and still we strive to offer best possible customer satisfaction
+                is the perfect place to start. We have over 10 branches all over the Pune and still we strive to offer best possible customer satisfaction
                 with unrivalled choice of products and peace of mind. Our sales teams are known for their highly reliable support and commitment.
             </p>
         </div>
