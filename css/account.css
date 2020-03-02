@@ -1,7 +1,7 @@
 #accountBoxDiv {
     position: relative;
-    width: 800px;
-    height: 620px;
+    width: 1000px;
+    height: 800px;
     margin-top: 10px;
     margin-left: auto;
     margin-right: auto;
@@ -17,7 +17,7 @@
 
 #accountThickLine {
     position: absolute;
-    width: 800px;
+    width: 1000px;
     height: 10px;
     top: 0;
     left: 0;
@@ -25,8 +25,8 @@
 }
 
 #accountDiv { 
-    width: 400px;
-    height: 600px;
+    width: 600px;
+    height: 800px;
     float: left;
     margin-left: 20px;
 }
@@ -40,13 +40,13 @@
 /*///// FORM STYLE /////*/
 #frmAccount {
     position: relative;
-    width: 400px;
-    height: 500px;
+    width: 600px;
+    height: 700px;
     margin-top: 20px;
 }
 
 #frmAccount input[type="text"] {
-    width: 140px;
+    width: 240px;
     height: 20px;
     float: left;
     border: solid 1px;
@@ -70,7 +70,7 @@
 }
 
 .spanInputs2 {
-    width: 200px;
+    width: 300px;
     float: left;
     font-family: verdana, arial, sans-serif;
     font-size: 12px;
@@ -84,8 +84,8 @@
 /*///// END OF FORM STYLE /////*/
 
 #accountImage {
-    width: 340px;
-    height: 600px;
+    width: 540px;
+    height: 800px;
     float: right;
 }
 
@@ -95,8 +95,8 @@
 
 #accountErrorDiv {
     display: none;
-    width: 300px;
-    height: 50px;
+    width: 500px;
+    height: 100px;
     margin-left: 20px;
     border: solid 1px #e14d0f;;
     color: #e14d0f;
