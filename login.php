@@ -201,7 +201,7 @@ if (!isset($_SESSION["basket"])) {
         ?>
         <!--////////////////////////////// LOGIN BOX DIV ////////////////////////////-->
         <div id="loginBoxDiv">
-        <a href="" style="align:right;" > admin login</a>
+        <a href="" style="align-self:right;" > admin login</a>
             <h3> Login or Create Account </h3>
             <hr class="loginThinLine" />
             <!--///////////////////// DISPLAY HAS ACCOUNT ERROR MESSAGE ///////////////////-->
