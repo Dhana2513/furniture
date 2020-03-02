@@ -20,12 +20,12 @@ if (!isset($_SESSION["basket"])) {
     }
     if ($prodType == "bed") {
         $title = "Beds";
-        $image1 = "<a href='prodInfo.php?prodId=bed12&amp;type=bed'><img src='css/images/bed/imgBed1W300xH439.jpg' width='300' height='439' alt='Bed images'/></a>";
+        $image1 = "<a href='prodInfo.php?prodId=12&amp;type=bed'><img src='css/images/bed/imgBed1W300xH439.jpg' width='300' height='439' alt='Bed images'/></a>";
         $image2 = "<img src='css/images/bed/imgBed2W300xH439.jpg' width='300' height='439' alt='Bed images'/>";
     } else if ($prodType == "chair") {
         $title = "Chairs";
-        $image1 = "<a href='prodInfo.php?prodId=chair13&amp;type=chair'> <img src='css/images/chair/imgChair1W300xH439.jpg' width='300' height='439' alt='Chair images'/> </a>";
-        $image2 = "<a href='prodInfo.php?prodId=chair07&amp;type=chair'><img src='css/images/chair/imgChair2W300xH439.jpg' width='300' height='439' alt='Chair images'/></a>";
+        $image1 = "<a href='prodInfo.php?prodId=13&amp;type=chair'> <img src='css/images/chair/imgChair1W300xH439.jpg' width='300' height='439' alt='Chair images'/> </a>";
+        $image2 = "<a href='prodInfo.php?prodId=07&amp;type=chair'><img src='css/images/chair/imgChair2W300xH439.jpg' width='300' height='439' alt='Chair images'/></a>";
     } else if ($prodType == "chest") {
         $title = "Chests";
         $image1 = "<img src='css/images/chest/imgChest1W300xH439.jpg' width='300' height='439' alt='Chest images'/>";
