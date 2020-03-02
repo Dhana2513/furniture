@@ -1,0 +1,153 @@
+/*/////// LOGIN BOXES DIVS ///////*/
+#loginBoxDiv {
+    position: relative;
+    width: 800px;
+    height: 650px;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+    padding-top: 10px;
+    padding-bottom: 50px;
+}
+
+#loginBoxDiv h3 {
+    margin-left: 50px;
+    font-family: verdana, arial, sans-serif;
+    color: rgb(228, 121, 17);
+}
+
+.loginThinLine {
+    border: dashed 1px;
+}
+
+#loginThickLine {
+    position: absolute;
+    width: 800px;
+    height: 20px;
+    bottom: 0;
+    left: 0;
+    background-color: grey;
+}
+
+#hasAccountDiv {
+    position: relative;
+    width: 380px;
+    height: 500px;
+    float: left;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#hasNotAccountDiv {
+    position: relative;
+    width: 400px;
+    height: 500px;
+    float: right;
+}
+/*/////// HAS ACCOUNT ///////*/
+#loginBoxDiv h5 {
+    margin-left: 50px;
+    font-family: verdana, arial, sans-serif;
+}
+
+#hasAccountDiv form {
+    width: 142px;
+    height: 150px;
+}
+
+#hasAccountDiv input[type="text"], #hasPassword {
+    width: 140px;
+    height: 20px;
+    border: solid 1px;
+    margin-bottom: 10px;
+    margin-left: 50px;
+}
+
+#frmHas input[type="text"]:focus, #hasPassword:focus {
+    border-color: #e14d0f;
+}
+
+#frmHas input[type="submit"] {
+    width: 70px;
+    height: 30px;
+    border: 0;
+    background-color: black;
+    color: white;
+    margin-left: 50px;
+}
+
+#frmHas input[type="submit"]:hover { background-color: #e14d0f; color: black;}
+
+.spanInputs {
+    width: 200px;
+    float: left;
+    font-family: verdana, arial, sans-serif;
+    font-size: 12px;
+    margin-left: 50px;
+}
+
+/*/////// HAS NOT ACCOUNT ///////*/
+#errorDiv {
+    display: none;
+    width: 300px;
+    height: 50px;
+    margin-left: 50px;
+    border: solid 1px #e14d0f;;
+    color: #e14d0f;
+    font-family: verdana, arial;
+    font-size: 12px;
+}
+
+#hasNotAccountDiv p {
+    margin-left: 50px;
+    font-family: verdana, arial, sans-serif;
+    font-size: 12px;
+}
+
+#frmHasNot {
+    width: 300px;
+    height: 500px;
+    margin-top: 10px;
+}
+
+#frmHasNot input[type="text"] {
+    width: 200px;
+    height: 20px;
+    margin-right: 80px;
+    border: solid 1px;
+    margin-bottom: 10px;
+    margin-left: 50px;
+}
+#frmHasNot input[type="password"] {
+    width: 200px;
+    height: 20px;
+    margin-right: 80px;
+    border: solid 1px;
+    margin-bottom: 10px;
+    margin-left: 50px;
+}
+
+#frmHasNot input[type="text"]:focus, input[type="password"]:hover {
+    border-color: #e14d0f;
+}
+
+#hasNotAccountDiv input[type="submit"] {
+    width: 80px;
+    height: 30px;
+    border: 0;
+    background-color: black;
+    color: white;
+    margin-left: 50px;
+}
+
+#hasNotAccountDiv input[type="submit"]:hover { background-color: #e14d0f; color: black;}
+
+/*/////// SUCCESSFULLY ACCOUNT CREATED ///////*/
+
+#hasNotAccountDiv h2 {
+    font-family: verdana, arial;
+    margin-left: 50px;
+    color: #e14d0f;
+}
+

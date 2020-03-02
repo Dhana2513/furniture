@@ -1,0 +1,111 @@
+
+#prodListDiv 
+{ 
+    width: 800px;
+    height: 948px;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#greyBG {
+    position: relative;
+    width: 800px;
+    height: 25px;
+    font-family: verdana, arial;
+    text-align: center;
+    line-height: 25px;
+    color: white;
+    background-color: #555555;
+}
+
+#greyBG h6 {
+    position: relative;
+    margin: 0;
+    font-size: smaller;
+}
+
+.leftHeadLine {
+    float: left;
+}
+
+.prodImages
+{
+    width: 300px;
+    height: 439px;
+    float: left;
+}
+
+.prodImages img { border: 0; }
+.prodImages a:focus { outline: none; }
+
+#productTable
+{
+    width: 500px;
+    height: 878px;
+    float: right;
+    border-collapse: separate;
+    border-spacing: 3.5px 58.15625px;
+    background-color: white;
+}
+
+#productTable td
+{
+    width: 162px;
+    height: 215.125px;
+    padding: 0;
+    margin: 0;
+    vertical-align: top;
+    text-align: center;
+    background-color: white;
+}
+
+#productTable a
+{
+    display: block;
+    width: 158px;
+    height: 211.125px;
+    text-decoration: none;
+    color: black;
+    border: solid 2px;
+    border-color: lightgrey;
+}
+
+#productTable a:hover
+{
+    color: #e14d0f;
+    border-color: #e14d0f;
+}
+
+#productTable img { margin-top: 2px; border: 0; }
+
+#productTable p
+{
+    padding: 0;
+    margin: 0;
+    font-family: verdana;
+    font-size: 14px;
+}
+
+#productTable .price { font-size: 10px; }
+
+#paginationBoxDiv {
+    float: right;
+    width: 800px;
+    height: 40px;
+    background-color: lightgrey;
+}
+
+#paginationDiv
+{
+    
+    width: 500px;
+    height: 30px;
+    margin-top: 5px;
+    float: right;
+    clear: both;
+}
+
+#cart img {
+    border: none;
+}

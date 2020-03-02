@@ -1,0 +1,202 @@
+
+#basketDiv {
+    position: relative;
+    width: 800px;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+    padding-top: 10px;
+    padding-bottom: 200px;
+}
+
+#basketDiv h3, h5 {
+    font-family: verdana, arial, sans-serif;
+    margin-left: 50px;
+    color: rgb(228, 121, 17);
+}
+
+#basketDiv h5 { color: black;}
+
+/*/////// ACTUAL TABLE STYLE ///////*/
+#basketTable {
+    position: relative;
+    border-collapse: collapse;
+    width: 700px;
+    height: 200px;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: verdana, arial, sans-serif;
+    border: solid 1px #e14d0f;
+}
+
+#basketTable th {
+    height: 30px;
+    background-color: #e14d0f;
+    color: black;
+    font-size: 13px;
+}
+
+#basketTable th, td {
+    padding: 0;
+    margin: 0;
+}
+
+#basketTable td { font-size: 12px;} 
+
+#basketTable img { border: 0; display: block;}
+
+/*/////// TABLE DATA STYLE ///////*/
+#thProdName, #thLineTotal{ text-align: left; }
+
+.tdFirstThinLine {  /* FIRST THIN LINE AFTER TH*/
+    height: 3px;
+    background-color: white;
+}
+
+.tdProdImg {
+    width: 50px;
+    height: 50px;
+    background-color: white;
+}
+
+.tdName {
+    width: 340px;
+    height: 50px;
+    background-color: white;
+}
+
+.tdName p {
+    margin-left: 10px;
+}
+
+.tdPrice {
+    width: 30px;
+    height: 50px;
+    text-align: center;
+    background-color: white;
+}
+
+.tdQty {
+    width: 180px;
+    height: 50px;
+    text-align: center;
+    background-color: white;
+}
+
+.tdQty input[type='text'] {
+    width: 30px;
+}
+
+.tdQty input[type='submit'] {
+    border: 0;
+    background-color: black;
+    color: white;
+}
+
+.tdQty input[type='submit']:hover {background-color: #e14d0f; color: black;}
+
+.tdLineTotal {
+    width: 100px;
+    height: 50px;
+    text-align: left;
+    background-color: white;
+}
+
+.tdThinLine {      /* THIN LINE AFTER PRODUCT TD*/
+    height: 1px;
+    background-color: #e14d0f;
+}
+
+.trEmptySpace {     /* EMPTY SPACE BEFORE SUBTOTAL*/
+    height: 30px;
+}
+
+.tdEnd {    /* TITLE SUBTOTAL SHIPPING COST VAT GRANT TOTAL*/
+    text-align: right;
+    background-color: lightgrey;
+}
+
+.tdEndData {
+    text-align: left;
+    background-color: lightgrey;
+}
+
+.tdGrandTotal {
+    height: 30px;
+    text-align: right;
+    background-color: grey;
+    color: white;
+}
+
+.tdGrandTotalData {
+    height: 30px;
+    text-align: left;
+    background-color: grey;
+    color: white;
+}
+/*/////// END OF TABLE DATA STYLE ///////*/
+
+#checkOutDiv {
+    width: 700px;
+    height: 30px;
+    float: right;
+    margin-top: 40px;
+    margin-right: 50px;
+}
+
+#aContinueShop {
+    display: block;
+    width: 150px;
+    height: 30px; 
+    float: left;
+    background-color: black;;
+    text-decoration: none;
+    text-align: center;
+    line-height: 30px;
+    font-family: verdana, arial;
+    font-size: 12px;
+    color: white;
+}
+
+#aCheckout {
+    display: block;
+    width: 150px;
+    height: 30px; 
+    float: right;
+    background-color: black;
+    text-decoration: none;
+    text-align: center;
+    line-height: 30px;
+    font-family: verdana, arial;
+    font-size: 12px;
+    color: white;
+}
+
+#aContinueShop:hover, #aCheckout:hover {
+    background-color: #e14d0f;
+    color: black;
+}
+
+#basketThickLine {
+    position: absolute;
+    width: 800px;
+    height: 20px;
+    bottom: 0;
+    background-color: grey;
+}
+
+#basketErrorDiv {
+    display: none;
+    width: 700px;
+    height: 40px;
+    margin: 0 auto 0;
+    border: solid 1px #e14d0f;;
+}
+
+#basketErrorDiv h6 {
+    margin-left: 30px;
+    font-family: verdana, arial;
+    color: #e14d0f;
+}

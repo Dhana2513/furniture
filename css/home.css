@@ -1,0 +1,394 @@
+body 
+{
+    background-color: #f2f2f2;
+    margin: 0;
+}
+
+#containerDiv
+{
+    position: absolute;
+    left: 50%;
+    margin-left: -500px;
+    width: 1000px;
+}
+
+#headerDiv
+{
+    position: relative;
+    width: 800px;
+    height: 35px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*///// IF CUSTOMER NAME EXIST /////*/
+
+#welcomeSpan {
+    position: absolute;
+    bottom: 2px;
+    left: 0px;
+    font-family: verdana, arial;
+    font-size: 12px;
+}
+
+/*///// END IF CUSTOMER NAME EXIST /////*/
+#headerDiv p
+{
+    position: absolute;
+    right: 5px;
+    bottom: 2px;
+    margin: 0;
+    font-family: Verdana;
+    font-size: 12px;
+}
+
+#headerDiv a
+{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+#headerDiv a:hover
+{
+    color: #e14d0f;
+    text-decoration: underline;
+}
+
+#navigationDiv
+{
+    width: 800px;
+    height: 51px;
+    margin-top: 5px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#navigationDiv ul
+{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+#navigationDiv li
+{
+    float: left;
+}
+
+#navigationDiv li .logo
+{
+    display: block;
+    width: 150px;
+    height: 51px;
+    background: url(images/logoW150xH102.jpg) bottom;
+    background-repeat: no-repeat;
+}
+
+#navigationDiv li .logo:hover
+{
+    background-position: top;
+}
+
+#navigationDiv li .button
+{
+    display: block;
+    width: 150px;
+    height: 51px;
+    line-height: 51px;
+    background: url(images/buttonBGW300xH102.jpg) bottom;
+    background-repeat: no-repeat;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    font-family: Verdana;
+    font-weight: bold;
+    font-size: smaller;
+}
+
+#navigationDiv li a:hover
+{
+    background-position: top;
+    color: white;
+} 
+
+.txtNav
+{
+    width: 150px;
+    height: 51px;
+    background-image: url(images/txtBackgroundW150xH51.jpg);
+    background-repeat: no-repeat;
+    text-align: center;
+    line-height: 51px;
+}
+
+#navigationDiv input[type="text"]
+{
+    width: 140px;
+    padding: 0;
+    margin: 0;
+}
+
+.searchNav
+{
+    width: 50px;
+    height: 51px;
+    background: black;
+    text-align: center;
+}
+
+#navigationDiv input[type="submit"]
+{
+    width: 27px;
+    height: 27px;
+    border: 0;
+    background: url(images/searchLogoW27xH54.jpg) bottom;
+    background-repeat: no-repeat;
+    padding: 0;
+    margin-top: 12px;
+}
+
+#navigationDiv input[type="submit"]:hover
+{
+    background-position: top;
+}
+
+#indexBoxDiv1
+{
+    width: 800px;
+    height: 366px;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#imgSlides
+{
+    width: 650px;
+    height: 366px;
+    float: left;
+}
+
+#imgSlides .imgFirst { display: block; }
+#imgSlides .imgOthers { display: none; }
+
+#ulThumbs 
+{
+    padding: 0;
+    margin: 0;
+    width: 140px;
+    height: 350px;
+    float: right;
+    list-style: none;
+}
+
+#ulThumbs li a
+{
+    display: block;
+    width: 140px;
+    height: 70.8px;
+    background-color: #1f1a17;
+    text-align: center;
+    text-decoration: none;
+}
+
+.middleThumb
+{
+    margin: 3px 0;
+}
+
+#ulThumbs img
+{
+    margin-top: 2.9px;
+    border: 0;
+}
+
+#ulThumbs li.activeSlide a 
+{ 
+    background-color: #e14d0f;
+}
+
+#ulThumbs a:focus 
+{ 
+    outline: none; 
+}
+
+#ulThumbs a:hover 
+{ 
+    background-color: #e14d0f; 
+}
+
+#indexBoxDiv2
+{
+    width: 800px;
+    height: 200px;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#content1
+{
+    width: 300px;
+    height: 200px;
+    float: left;
+    background: url(images/mapW300xH200.jpg);
+}
+
+#content2
+{
+    width: 500px;
+    height: 200px;
+    float: left;
+    background-color: #e14d0f;
+}
+
+#prodNav{
+    width: 350px;
+    height: 30px;
+    padding: 0;
+    margin: 0 auto 0 auto;
+    list-style: none;
+}
+
+#prodNav li {
+    margin-left: 25px;
+    margin-right: 25px;
+    float: right;
+}
+
+#prodNav li #left {
+    display: block;
+    width: 30px;
+    height: 30px;
+    background: url(images/finalNav1.jpg) bottom;
+    background-repeat: no-repeat;
+}
+
+#prodNav li #right {
+    display: block;
+    width: 30px;
+    height: 30px;
+    background: url(images/finalNav2.jpg) bottom;
+    background-repeat: no-repeat;
+}
+
+#prodNav li #right:hover { background-position: top; }
+#prodNav li #left:hover { background-position:  top; }
+
+#content2 h6
+{
+    padding: 0;
+    margin: 8px 0 0 0;
+    font-family: Verdana, arial, sans-serif;
+    text-align: center;
+    color:white;
+}
+
+#featuredSlides {
+    width: 499px;
+    height: 164px;
+    margin-top: 5px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#featuredSlides a {
+    display: block;
+    width: 162px;
+    height: 160px;
+    float: left;
+    margin-left: 1px;
+    margin-right: 1px;
+    background-color: white;
+    border: solid 1px white;
+}
+
+#featuredSlides a:hover {
+    
+    border-color: black;
+}
+
+#indexBoxDiv3
+{
+    width: 800px;
+    height: 170px;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: black;
+}
+#indexBoxDiv3 h4
+{
+    padding: 30px 10px 5px;
+    margin: 0;
+    color: #e14d0f;
+    font-family: Verdana;
+}
+
+#indexBoxDiv3 .orange
+{
+    font-family: Broadway;
+}
+
+#indexBoxDiv3 p 
+{
+    padding: 0px 10px 5px;
+    margin: 0px;
+    font-size: 10px;
+    font-family: Verdana;
+    color: white;
+}
+
+#footerDiv
+{
+    position: relative;
+    width: 800px;
+    height: 15px;
+    margin-top: 5px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#footerDiv p
+{
+    position: absolute;
+    bottom: 2px;
+    left: 5px;
+    margin: 0;
+    font-size: 10px;
+    font-family: Verdana; 
+}
+
+#footerDiv a
+{
+    text-decoration: none;
+    color: black;
+}
+
+#footerDiv a:hover
+{
+    color: #e14d0f;
+    text-decoration: underline;
+}
+
+#fade {
+    display: none;
+    position: relative;
+    width: 500px;
+    height: 200px;
+    float: right;
+    z-index: 50;
+    border: solid 1px;
+}
+
+#cart img, #indexBoxDiv2 img{
+    border: none;
+}
+
+#indexBoxDiv2 img:focus {
+    border: none;
+}
+
+
+

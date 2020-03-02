@@ -1,0 +1,116 @@
+#accountBoxDiv {
+    position: relative;
+    width: 800px;
+    height: 620px;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+    padding-top: 10px;
+}
+
+#accountBoxDiv h3 {
+    margin-left: 20px;
+    font-family: verdana, arial, sans-serif;
+    color: rgb(228, 121, 17);
+}
+
+#accountThickLine {
+    position: absolute;
+    width: 800px;
+    height: 10px;
+    top: 0;
+    left: 0;
+    background-color: grey;
+}
+
+#accountDiv { 
+    width: 400px;
+    height: 600px;
+    float: left;
+    margin-left: 20px;
+}
+
+#accountDiv p {
+    margin-left: 20px;
+    font-family: verdana, arial;
+    font-size: 12px;
+    font-weight: bold;
+}
+/*///// FORM STYLE /////*/
+#frmAccount {
+    position: relative;
+    width: 400px;
+    height: 500px;
+    margin-top: 20px;
+}
+
+#frmAccount input[type="text"] {
+    width: 140px;
+    height: 20px;
+    float: left;
+    border: solid 1px;
+    margin-bottom: 10px;
+    margin-left: 20px;
+}
+
+#frmAccount input[type="text"]:focus {
+    border-color: #e14d0f;
+}
+
+#btnUpdate {
+    width: 70px;
+    height: 30px;
+    border: 0;
+    float: left;
+    margin-top: 10px;
+    background-color: black;
+    color: white;
+    margin-left: 20px;
+}
+
+.spanInputs2 {
+    width: 200px;
+    float: left;
+    font-family: verdana, arial, sans-serif;
+    font-size: 12px;
+    margin-left: 20px;
+}
+
+#frmAccount input[type='submit']:hover 
+{   background-color: #e14d0f; 
+    color: white;
+}
+/*///// END OF FORM STYLE /////*/
+
+#accountImage {
+    width: 340px;
+    height: 600px;
+    float: right;
+}
+
+#accountImage img {
+    border: 0;
+}
+
+#accountErrorDiv {
+    display: none;
+    width: 300px;
+    height: 50px;
+    margin-left: 20px;
+    border: solid 1px #e14d0f;;
+    color: #e14d0f;
+    font-family: verdana, arial;
+    font-size: 12px;
+}
+
+#btnLogout {
+    width: 70px;
+    height: 30px;
+    border: 0;
+    float: left;
+    margin-top: 10px;
+    background-color: black;
+    color: white;
+    margin-left: 196px;
+}

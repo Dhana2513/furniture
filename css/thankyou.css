@@ -1,0 +1,26 @@
+
+#thankContainer {
+    position: relative;
+    margin-right: auto;
+    margin-left: auto;
+    width: 1000px;
+    height: 1000px;
+}
+
+#thankyouDiv { 
+    position: relative;
+    width: 800px;
+    height: 400px;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+    padding-top: 10px;
+    padding-bottom: 50px;
+}
+
+#thankyouDiv h2 {
+    text-align: center;
+    font-family: verdana, arial;
+    color: rgb(228, 121, 17);
+}

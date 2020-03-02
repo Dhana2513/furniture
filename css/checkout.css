@@ -1,0 +1,23 @@
+
+#custDetailsDiv { 
+    width: 698px;
+    height: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    border: solid 1px #e14d0f;
+}
+
+#custDetailsDiv h6 {
+    font-family: verdana, arial;
+    margin-left: 20px;
+    color: rgb(228, 121, 17);
+}
+
+#custDetailsDiv p {
+    font-family: verdana, arial;
+    font-size: 12px;
+    margin-left: 20px;
+}
+
+
+
